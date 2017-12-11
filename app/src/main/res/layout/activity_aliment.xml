@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.canod.glucocanoapp.AlimentActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contadorCho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/tornarCalculador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d'acord"
+                android:onClick="tornarCalculador"/>
+
+            <ImageButton
+                android:id="@+id/btt1macarrons"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/macarrons" />
+
+            <ImageButton
+                android:id="@+id/btt2espaguetis"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/espaguetis" />
+
+            <ImageButton
+                android:id="@+id/btt3arros"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/arros" />
+
+            <ImageButton
+                android:id="@+id/btt4cigrons"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/cigrons" />
+
+            <ImageButton
+                android:id="@+id/btt5patatesfregides"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/patatesfregides" />
+
+            <ImageButton
+                android:id="@+id/btt6patatabullida"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/patatabullida" />
+
+            <ImageButton
+                android:id="@+id/btt7mongetes"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mongetes" />
+
+            <ImageButton
+                android:id="@+id/btt8llenties"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/llenties" />
+
+            <ImageButton
+                android:id="@+id/btt9bastonets"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bastonetspa" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
